@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="quotespage.AddQuote">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="AddQuote_LessThan10Characters"/>
+          <include name="beforeSuite_ExtentReport"/>
+          <include name="beforeClass_ExtentReport"/>
+          <include name="setUps"/>
+          <include name="AddQuote_checkplagiarism"/>
+          <include name="initClient_ExtentReport"/>
+          <include name="tearDown_ExtentReport"/>
+        </methods>
+      </class> <!-- quotespage.AddQuote -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
